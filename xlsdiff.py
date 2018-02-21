@@ -11,7 +11,6 @@ class Main:
 
     def __init__(self, options):
         self.options = options
-        # self.log = log.basicConfig(format="%(message)s", level=log.INFO)
 
         self.wb1 = xlrd.open_workbook( options.file1 )
         self.wb2 = xlrd.open_workbook( options.file2 )
